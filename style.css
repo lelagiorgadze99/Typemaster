@@ -10,7 +10,9 @@ body {
   margin-right: 24px;
 }
 .container {
-  margin-bottom: 50px;
+  display: grid;
+  
+  gap: 32px;
 }
 /* header */
 header {
@@ -51,22 +53,39 @@ p {
   color: #ffffff;
   margin-right: 32px;
 }
-.img-div {
-  height: 600px;
-  background: url(/assets/mobile/image-keyboard.jpg) no-repeat;
-  background-size: contain;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 24px;
-  align-items: flex-end;
+.btn-span{
+margin-bottom: 64px;
 }
-.img-div img {
-  border-radius: 20px;
+
+img {
+  /* border-radius: 20px; */
   width: 100%;
 }
-.image-phone-and-keyboard {
+.image-keyboard{
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.flex-img{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 23px;
+  margin-top: 23px;
+}
+.border{
+  border-radius: 20px;
+}
+.overlay{
+  /* width: 144px; */
+  /* height: 226px; */
+  background-color: #f16718;
+  border-radius: 20px;
+}
+.image-phone-and-keyboard{
+  opacity: 0.25;
   height: 193px;
 }
+
 
 .types {
   margin-top: 200px;
